@@ -1,0 +1,17 @@
+
+
+@media screen and (min-width:480px) {
+    
+    /* TITLE  */
+    
+    header h1{
+        text-align: left;
+    }
+
+    .title .hidden{
+        display: inline-block;
+    }
+    .title h2{
+        display: inline-block;
+    }
+}
