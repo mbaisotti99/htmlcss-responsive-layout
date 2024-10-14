@@ -12,8 +12,9 @@
     .title .hidden{
         display: inline-block;
     }
-    .title h2{
+    .title .container h2{
         display: inline-block;
+        font-size: 40px;
     }
 
     
@@ -55,10 +56,30 @@
 
 }
 
+/* LARGE MOBILE  */
+
+
+@media screen and (min-width:500px) {
+    .presentation .container img{
+        width: 50%;
+    }
+}
 
 /* DESKTOP */
 
 @media screen and (min-width:768px) {
+    
+    /* Title */
+    .title .container h2{
+        font-size: 60px;
+    }
+
+    .title .hidden{
+        font-size: 50px;
+    }
+    
+    /* Hero */
+
     ul.socials li strong{
         display: inline-block;
     }
@@ -93,6 +114,7 @@
         width: 50%;
         text-align: left;
     }
+
 
     footer .left{
         padding: 10px;
