@@ -32,7 +32,7 @@
 
     /* Presentation */
 
-    .presentation img{
+    .presentation .container img{
         width: 30%;
         float: left;
     }
@@ -45,6 +45,12 @@
     
     footer .foot-list li{
         width: calc(100%/5);
+    }
+
+    /* Banner */
+
+    .banner .ad{
+        display: block;
     }
 
 }
