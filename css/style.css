@@ -130,8 +130,14 @@ header{
 }
 
 .socials{
-    display: flex;
     justify-content: space-around;
+    padding: 30px 0;
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+.socials li:nth-child(1) i{
+    filter: invert(58%) sepia(55%) saturate(5487%) hue-rotate(196deg) brightness(94%) contrast(96%);
 }
 
 /* Presentation */
@@ -144,10 +150,15 @@ header{
 
 .pres-img{
     width: 50%;
+    margin-bottom: 30px;
 }
 
 .presentation .pres{
     justify-content: center;
+}
+
+.presentation{
+    padding-bottom: 50px;
 }
 
 
