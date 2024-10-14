@@ -1,0 +1,109 @@
+/* RESET  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+
+/* Titolo  */
+
+
+h1{
+    font-family: "Nerko One", cursive;
+    text-align: center;
+}
+
+.hidden{
+    display: none;
+}
+
+
+/* Common */
+
+.container{
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+body{
+    font-family: Montserrat, 'Helvetica Neue', sans-serif;
+}
+
+.flex-cont{
+    display: flex;
+}
+
+/* Hero */
+
+.hero{
+    flex-wrap: wrap;
+}
+
+.video-col{
+    width: 100%;
+}
+
+.hero .video-col iframe{
+    width: 100%;
+}
+
+.hero .body-col p:last-of-type{
+    font-weight: bolder;
+}
+
+.hero .body-col p:last-of-type strong{
+    font-weight: lighter;
+}
+
+.socials span{
+    display: inline-block;
+    width: 10%;
+    height: 40px;
+
+    box-shadow: 5 5 5;
+}
+
+.socials{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Presentation */
+
+.presentation hr{
+    width: 100px;
+    border-top:1px solid orange;
+    margin: 15px 0;
+}
+
+.pres-img{
+    width: 50%;
+}
+
+.presentation .pres{
+    justify-content: center;
+}
+
+
+/* FOOTER */
+
+footer{
+    text-align: center;
+}
+
+.foot-list{
+    list-style: none;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.foot-list li{
+    width: calc(100%/4);
+}
