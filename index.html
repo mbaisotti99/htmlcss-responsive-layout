@@ -8,7 +8,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/responsive.css">
     <link rel="stylesheet" href="./css/debug.css">
     <link rel="stylesheet" href="./css/style.css">
@@ -28,73 +30,84 @@
             <span class="hidden">(Dolce Tradizionale)</span>
         </div>
     </div>
-    <div class="container">
-        <div class="hero flex-cont">
+    <div class="hero ">
+        <div class="container flex-cont">
             <div class="video-col">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/JVT900H6s0g?si=0f75sKtCVcvoe-kV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/JVT900H6s0g?si=0f75sKtCVcvoe-kV"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
             <div class="body-col">
-                
-                    <h3>In Breve...</h3>
-                    <p>
+
+                <h3>In Breve</h3>
+                <ul class="body-list flex-cont">
+                    <li>
                         Difficoltà:
                         <strong>
                             Facile
                         </strong>
-                    </p>
-                    <p>
+                    </li>
+                    <li>
                         Tempo:
                         <strong>
                             40 Minuti
                         </strong>
-                    </p>
-                    <p>
+                    </li>
+                    <li>
                         Porzione per:
                         <strong>
                             8 persone
                         </strong>
-                    </p>
-                    <p>
+                    </li>
+                    <li>
                         Costo:
                         <strong>
                             Contenuto
                         </strong>
-                    </p>
-                    <p>
+                    </li>
+                    <li>
                         Note:
                         <strong>
                             +2 Ore di riposo in frigo
                         </strong>
-                    </p>
-                
+                    </li>
+                </ul>
             </div>
         </div>
-        <ul class="socials flex-cont">
-            <li>
-                <i class="fa-brands fa-facebook"></i>
-            </li>
-            <li>
-                <i class="fa-brands fa-instagram"></i>
-            </li>
-            <li>
-                <i class="fa-brands fa-twitter"></i>
-            </li>
-            <li>
-                <i class="fa-brands fa-youtube"></i>
-            </li>
-            <li>
-                <i class="fa-brands fa-pinterest"></i>
-            </li>
-        </ul>
+        <div class="container">
+            <ul class="socials flex-cont">
+                <li>
+                    <i class="fa-brands fa-facebook"></i>
+                    <strong>Facebook</strong>
+                </li>
+                <li>
+                    <i class="fa-brands fa-instagram"></i>
+                    <strong>Instagram</strong>
+                </li>
+                <li>
+                    <i class="fa-brands fa-twitter"></i>
+                    <strong>Twitter</strong>
+                </li>
+                <li>
+                    <i class="fa-brands fa-youtube"></i>
+                    <strong>YouTube</strong>
+                </li>
+                <li>
+                    <i class="fa-brands fa-pinterest"></i>
+                    <strong>Pinterest</strong>
+                </li>
+            </ul>
+        </div>
     </div>
     <div class="presentation">
         <div class="container">
             <h2>PRESENTAZIONE</h2>
             <hr>
-            <div class="pres flex-cont">
-                <img src="./img/tiramisu.jpg" alt="" class="pres-img">
-            </div>
+            <!-- <div class="pres flex-cont"> -->
+            <!-- </div> -->
             <p>
+                <img src="./img/tiramisu.jpg" alt="" class="pres-img">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis vitae deleniti similique debitis
                 dolor cupiditate tempora inventore laborum molestias incidunt asperiores eligendi repellat ad ex maxime
                 provident tenetur, minima enim.
@@ -114,21 +127,26 @@
                 dolor cupiditate tempora inventore laborum molestias incidunt asperiores eligendi repellat ad ex maxime
                 provident tenetur, minima enim.
             </p>
+
         </div>
     </div>
 
     <!-- FOOTER  -->
 
-    <footer>
-        <strong>2021 Giallo Booleano S.p.a.</strong><br>
-        <p class="address">Via Tal dei Tali, 10 - 88046 Lamezia Terme - VAT 943872390578</p>
-        <ul class="foot-list flex-cont">
-            <li><a href="">About Us</a></li>
-            <li><a href="">Terms of Use</a></li>
-            <li><a href="">Privacy Policy</a></li>
-            <li><a href="">Cookie Policy</a></li>
-            <li><a href="">Disclaimer</a></li>
-        </ul>
+    <footer class="flex-cont">
+        <span class="left">
+            <strong class="padd-5-0">2021 Giallo Booleano S.p.a.</strong><br>
+            <p class="address padd-5-0">Via Tal dei Tali, 10 - 88046 Lamezia Terme - VAT 943872390578</p>
+        </span>
+        <span class="right">
+            <ul class="foot-list flex-cont padd-5-0">
+                <li><a href="">About Us</a></li>
+                <li><a href="">Terms of Use</a></li>
+                <li><a href="">Privacy Policy</a></li>
+                <li><a href="">Cookie Policy</a></li>
+                <li><a href="">Disclaimer</a></li>
+            </ul>
+        </span>
     </footer>
 </body>
 

@@ -3,7 +3,7 @@
 @media screen and (min-width:480px) {
     
     /* TITLE  */
-    
+
     header h1{
         text-align: left;
     }
@@ -14,4 +14,85 @@
     .title h2{
         display: inline-block;
     }
+
+    
+    /* HERO */
+
+    .body-col .body-list li{
+        width: calc(100%/3);
+    }
+
+    ul.socials li{
+        width: 15%;
+    }
+    /* ul.socials li i{
+        align-self: flex-start;
+    } */
+
+    /* Presentation */
+
+    .presentation img{
+        width: 30%;
+        float: left;
+    }
+    .presentation .pres p{
+        width: 30%;
+    }
+
+
+    /* Footer */
+    
+    footer .foot-list li{
+        width: calc(100%/5);
+    }
+
+}
+
+
+/* DESKTOP */
+
+@media screen and (min-width:768px) {
+    ul.socials li strong{
+        display: inline-block;
+    }
+
+    ul.socials li{
+        width: 18%;
+    }
+
+
+    .container{
+        width: 80%;
+    }
+
+    div .container{
+        width: 80%;
+    }
+
+    .hero .video-col{
+        width: 70%;
+    }
+    .hero .body-col{
+        width: 30%;
+    }
+    .body-col .body-list li{
+        width: 100%;
+    }
+
+
+    /* Footer */
+
+    footer .left, footer .right{
+        width: 50%;
+        text-align: left;
+    }
+
+    footer .left{
+        padding: 10px;
+    }
+
+    footer.flex-cont{
+        align-items: center;
+    }
+
 }
